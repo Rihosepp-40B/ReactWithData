@@ -4,7 +4,7 @@ export const dbConfig: sql.config = {
     user: "sa",  // serveri kasutaja
     password: "123",  // kasutaja parool
     server: "localhost",
-    database: "ReactData",  // peab olema datavase tehtud ja ka tabel
+    database: "ReactData",  // peab olema database tehtud ja ka tabel
     options: {
         encrypt: false,  // ilma selleta ei lae serverit ära
     }
